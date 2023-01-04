@@ -6,7 +6,7 @@ Better and easy for use string formats
 
 include_once "./format.php";
 
-echo format("Hello, {}!\nLorem {}.\nNumber: {}", "World", "ipsum", mt_rand());
+echo format("Hello, {}! Lorem {}. Number: {}", "World", "ipsum", mt_rand());
 
 echo format_array("Hello, :text! Lorem :ipsum. Number: :num. :unknown", [
     ":text" => "World",
